@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 import VideoPlayer from "../components/VideoPlayer";
 
 function Hero() {
-  const loremIpsumText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`;
+  const loremIpsumText = `Bidig is company for build sistem anything what do you one`;
   return (
     <header className="bg-white p-8">
       <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
@@ -17,19 +17,19 @@ function Hero() {
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
           >
             <Typewriter
-            options={{
-              strings: ["What is BIDIG"],
-              autoStart: true,
-              loop: true,
-            }}
-          />
+              options={{
+                strings: ["What is BIDIG"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </Typography>
-          
+
           <Typography
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            {loremIpsumText} 
+            {loremIpsumText}
             {/* I&apos;m Lily Smith, a passionate web developer based in USA. Here,
             you&apos;ll get a glimpse of my journey in the world of web
             development, where creativity meets functionality. */}

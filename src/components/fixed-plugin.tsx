@@ -4,7 +4,7 @@ import { Button } from "@material-tailwind/react";
 
 export function FixedPlugin() {
   return (
-    <a href="https://www.material-tailwind.com" target="_blank">
+    <a href="https://wa.me/6285977898907?text=Hallo Kak Mau Nanya-nanya Tentang Buat Project Dong ?" target="_blank">
       <Button
         color="white"
         size="sm"
